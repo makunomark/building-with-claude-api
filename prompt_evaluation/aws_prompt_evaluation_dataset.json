@@ -1,11 +1,17 @@
 [
   {
-    "task": "Write a Python function that validates if a string is a valid AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, hyphens, must start and end with letter or number)"
+    "task": "Create a CloudFormation template configuration for an S3 bucket with versioning enabled and public access blocked",
+    "format": "json",
+    "solution_criteria": "Must include S3 bucket resource definition, versioning configuration, PublicAccessBlockConfiguration with all four blocking parameters set to true, and proper AWS CloudFormation syntax"
   },
   {
-    "task": "Create a JSON object representing an AWS IAM policy that allows a principal to perform GetObject and PutObject actions on a specific S3 bucket ARN"
+    "task": "Write a Python function that validates if an AWS IAM policy ARN follows the correct format and extracts the account ID and resource name from it",
+    "format": "python",
+    "solution_criteria": "Must include a function that validates ARN format using string parsing or regex, extracts account ID and resource name, handles edge cases, and returns structured results"
   },
   {
-    "task": "Write a regular expression that matches valid AWS EC2 instance IDs (format: i- followed by 8 or 17 hexadecimal characters)"
+    "task": "Create a regular expression that matches valid AWS S3 bucket names according to AWS naming rules (lowercase letters, numbers, hyphens only, 3-63 characters, starts and ends with letter or number)",
+    "format": "regex",
+    "solution_criteria": "Must match valid bucket names like 'my-bucket-123' and 'data2024', reject invalid names like '-invalid', 'bucket-', 'UPPERCASE', names under 3 or over 63 characters"
   }
 ]
