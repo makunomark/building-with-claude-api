@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "68",
+      "goal": "Marathon training - high-endurance athlete requiring 3000+ calories with carbohydrate loading and strategic hydration timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories with carbohydrate-focused macronutrient distribution (55-65% carbs)",
+      "Includes hydration timing recommendations aligned with training/recovery phases",
+      "Provides 6 or fewer eating occasions for practical single-day implementation"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and hydration timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle and strength for weightlifting competition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers exactly one full day with 4-5 meals",
+      "Includes pre- and post-training meals with appropriate timing",
+      "Protein intake meets or exceeds 1.6-2.2g per kg of body weight",
+      "Meals are compact and practical (no lengthy preparation descriptions)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) requiring protein-focused nutrition with specific meal timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "183 cm",
+      "weight": "78 kg",
+      "goal": "Professional soccer player preparing for a match day - maximize energy, maintain agility, and support quick recovery",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals from breakfast through dinner with a pre-game meal timing consideration",
+      "Total daily caloric intake aligns with moderate-to-high athletic needs for a 78kg soccer player",
+      "Includes carbohydrate-rich foods for sustained energy and quick glucose availability",
+      "Pre-game meal is light and easily digestible, scheduled 2-3 hours before match time"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific scenario (professional soccer player) balancing moderate-to-high caloric needs with agility and quick energy requirements, including pre-game meal considerations"
+  }
+]
